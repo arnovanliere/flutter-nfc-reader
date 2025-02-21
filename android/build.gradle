@@ -38,12 +38,12 @@ android {
     }
 
     kotlinOptions {
-        jvmTarget '1.8'
+        jvmTarget = '1.8'
     }
 
     java {
         toolchain {
-            languageVersion JavaLanguageVersion.of(8)
+            languageVersion = JavaLanguageVersion.of(8)
         }
     }
 
